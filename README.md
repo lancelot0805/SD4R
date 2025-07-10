@@ -35,12 +35,9 @@ step 3. Refer to [train_and_eval.md](./docs/Guidance/train_and_eval.md) for trai
 ### 😙 Acknowledgement
 
 Many thanks to these exceptional open source projects:
-- [BEVFormer](https://github.com/fundamentalvision/BEVFormer)
-- [DFA3D](https://github.com/IDEA-Research/3D-deformable-attention.git)
+
 - [mmdet3d](https://github.com/open-mmlab/mmdetection3d)
-- [VoxFormer](https://github.com/NVlabs/VoxFormer.git)
-- [OccFormer](https://github.com/zhangyp15/OccFormer.git)
-- [CGFormer](https://github.com/pkqbajng/CGFormer)
+- [SGDet3D](https://github.com/shawnnnkb/SGDet3D)
 
 As it is not possible to list all the projects of the reference papers. If you find we leave out your repo, please contact us and we'll update the lists.
 
