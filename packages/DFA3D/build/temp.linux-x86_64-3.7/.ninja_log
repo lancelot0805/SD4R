@@ -1,0 +1,23 @@
+# ninja log v5
+2	9635	1737022323745000489	/home/bxk/CODE-40903-PhD-2/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/cuda/cudabind.o	495887077b88dce
+2	9948	1737022324045001893	/home/bxk/CODE-40903-PhD-2/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/cuda/ms_depth_score_sample_cuda.o	e1fdefc2d64060a6
+0	10167	1737022324273002961	/home/bxk/CODE-40903-PhD-2/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/ms_depth_score_sample.o	b29dae098ab6e30a
+1	10640	1737022324749005189	/home/bxk/CODE-40903-PhD-2/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/wms_deform_attn.o	d4cb6374ceead442
+2	12703	1737022326797014776	/home/bxk/CODE-40903-PhD-2/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/cuda/wms_deform_attn_cuda.o	8efcd92c67e4821b
+1	17770	1737022331869038520	/home/bxk/CODE-40903-PhD-2/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/pybind.o	5e9e647275973053
+1	9286	1742816036517776959	/home/bxk/wsk/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/cuda/ms_depth_score_sample_cuda.o	2c5c6d9d52ff82f2
+1	10285	1742816037533780231	/home/bxk/wsk/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/cuda/cudabind.o	9907b561f15b4d7d
+1	10617	1742816037861781288	/home/bxk/wsk/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/ms_depth_score_sample.o	6a724f3ac7171d1b
+1	10803	1742816038049781894	/home/bxk/wsk/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/wms_deform_attn.o	bcf445ef441e221c
+1	11018	1742816038253782551	/home/bxk/wsk/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/cuda/wms_deform_attn_cuda.o	334a880b2236b5b8
+0	18074	1742816045309805290	/home/bxk/wsk/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/pybind.o	50c588b93e4a8c56
+4	12441	1747485656246986762	/home/zzz/wsk/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/ms_depth_score_sample.o	d242b24a68996a95
+2	13173	1747485656977986729	/home/zzz/wsk/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/wms_deform_attn.o	5212c7c000106c99
+5	13627	1747485657433986709	/home/zzz/wsk/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/cuda/cudabind.o	8f5ab12d85f9d401
+3	19117	1747485662910986464	/home/zzz/wsk/KD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/pybind.o	4f329ef7de8e4f95
+2	12483	1747492259451052025	/home/bxk/wsk/SD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/cuda/ms_depth_score_sample_cuda.o	4e615da14f2fa5fe
+2	13453	1747492260423054033	/home/bxk/wsk/SD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/cuda/cudabind.o	c0fb5e4601e0b0f1
+2	13708	1747492260679054561	/home/bxk/wsk/SD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/ms_depth_score_sample.o	f4c0b1735318114f
+2	14481	1747492261451056158	/home/bxk/wsk/SD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/wms_deform_attn.o	434b9c4859ada36b
+2	14743	1747492261711056696	/home/bxk/wsk/SD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/cuda/wms_deform_attn_cuda.o	ce32fde31295d3cc
+1	23405	1747492270367074701	/home/bxk/wsk/SD4R/packages/DFA3D/build/temp.linux-x86_64-3.7/dfa3D/ops/csrc/pybind.o	3abad37f621aa2e3
