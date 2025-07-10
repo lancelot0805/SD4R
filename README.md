@@ -1,3 +1,4 @@
+
 # SD4R: Sparse-to-Dense Learning for 3D Object Detection with 4D Radar.
 
 ## 🗓️ News
@@ -52,3 +53,4 @@ If you find our work beneficial for your research, please consider citing our pa
 ![View-of-Delft](./docs/all_Figures/Visualization.png)
 
 Performance of our SD4R in real-scene 3D detection. The sparse points refer to the original radar measurements, while the virtual points are generated only based on the foreground points. The second row shows the corresponding visualization results. Our SD4R framework demonstrates strong capability in both noise reduction and foreground point densification.
+
