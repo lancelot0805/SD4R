@@ -27,7 +27,7 @@ Architecture of our SD4R neural network.
 
 step 1. Refer to [Install.md](./docs/Guidance/Install.md) to install the environment.
 
-step 2. Refer to [dataset.md](./docs/Guidance/dataset.md) to prepare View-of-delft (VoD) and TJ4DRadSet (TJ4D) datasets.
+step 2. Refer to [dataset.md](./docs/Guidance/dataset.md) to prepare View-of-delft (VoD)
 
 step 3. Refer to [train_and_eval.md](./docs/Guidance/train_and_eval.md) for training and evaluation.
 
