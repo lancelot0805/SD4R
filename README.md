@@ -46,7 +46,7 @@ As it is not possible to list all the projects of the reference papers. If you f
 
 ## ✒️ Citation
 
-If you find our work beneficial for your research, please consider citing our paper and give us a star. If you encounter any issues, please contact shawnnnkb@zju.edu.cn.
+If you find our work beneficial for your research, please consider citing our paper and give us a star. If you encounter any issues, please contact 2608745157@qq.com.
 
 ## 🐸 Visualization Results
 
