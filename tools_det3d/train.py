@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from __future__ import division
 import copy, argparse, os, time
-# os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1,2,3'
 import mmcv, shutil, torch, warnings
 torch.autograd.set_detect_anomaly(True)
 from mmcv import Config, DictAction

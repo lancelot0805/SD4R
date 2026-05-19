@@ -518,7 +518,7 @@ def MVP_depth(gt_bboxes_2d, unproject_mask, radar_sparse_depths, predict_depth, 
 
 def load_raw_datas():
     # choose which to draw
-    file_index = '01477' #'01035' '03506' '03331' '02087' '03893' '04524'
+    file_index = '00550' #'01035' '03506' '03331' '02087' '03893' '04524'
     
     # preliminary settins
     out_dir = './docs/test'
@@ -531,21 +531,21 @@ def load_raw_datas():
     annos = annos_ind['annos']
 
     # load depth from both file
-    depth_path_1='data/VoD/depth_anything_crop400/' + file_index + '.png'
-    depth_path_2='data/VoD/NLSPN/' + file_index + '.npy'
-    depth_path_3='data/VoD/depth_anything_upfromds2/' + file_index + '.npy'
-    depth_path_4='data/VoD/depth_anything_v2_inverse_depth/' + file_index + '.npy'
-    depth_dc_1, depth_dc_2, depth_dc_3 = get_all_depth(depth_path_1, depth_path_2, depth_path_3)
-    depth_dc_4 = np.load(depth_path_4)
+    # depth_path_1='data/VoD/depth_anything_crop400/' + file_index + '.png'
+    # depth_path_2='data/VoD/NLSPN/' + file_index + '.npy'
+    # depth_path_3='data/VoD/depth_anything_upfromds2/' + file_index + '.npy'
+    # depth_path_4='data/VoD/depth_anything_v2_inverse_depth/' + file_index + '.npy'
+    # depth_dc_1, depth_dc_2, depth_dc_3 = get_all_depth(depth_path_1, depth_path_2, depth_path_3)
+    # depth_dc_4 = np.load(depth_path_4)
     # depth_dc_1[:400, :] = depth_dc_2[:400, :]
-    depth_dc_1_color = colorize(depth_dc_1, vmin=0.0, vmax=80.0)
-    Image.fromarray(depth_dc_1_color).save(os.path.join(out_dir, 'extra_depth_1.png'))
-    depth_dc_2_color = colorize(depth_dc_2, vmin=0.0, vmax=80.0)
-    Image.fromarray(depth_dc_2_color).save(os.path.join(out_dir, 'extra_depth_2.png'))
-    depth_dc_3_color = colorize(depth_dc_3, vmin=0.0, vmax=80.0)
-    Image.fromarray(depth_dc_3_color).save(os.path.join(out_dir, 'extra_depth_3.png'))
-    depth_dc_4_color = colorize(depth_dc_4, vmin=0.0, vmax=80.0)
-    Image.fromarray(depth_dc_4_color).save(os.path.join(out_dir, 'extra_depth_4.png'))
+    # depth_dc_1_color = colorize(depth_dc_1, vmin=0.0, vmax=80.0)
+    # Image.fromarray(depth_dc_1_color).save(os.path.join(out_dir, 'extra_depth_1.png'))
+    # depth_dc_2_color = colorize(depth_dc_2, vmin=0.0, vmax=80.0)
+    # Image.fromarray(depth_dc_2_color).save(os.path.join(out_dir, 'extra_depth_2.png'))
+    # depth_dc_3_color = colorize(depth_dc_3, vmin=0.0, vmax=80.0)
+    # Image.fromarray(depth_dc_3_color).save(os.path.join(out_dir, 'extra_depth_3.png'))
+    # depth_dc_4_color = colorize(depth_dc_4, vmin=0.0, vmax=80.0)
+    # Image.fromarray(depth_dc_4_color).save(os.path.join(out_dir, 'extra_depth_4.png'))
     # cv2.imwrite(os.path.join(out_dir, 'extra_depth_1.png'), depth_dc_1)
     # cv2.imwrite(os.path.join(out_dir, 'extra_depth_2.png'), depth_dc_2)
     
@@ -644,7 +644,7 @@ def load_raw_datas():
     # draw depth2lidar complete radar points using bbox_mask
     unproject_mask = seg_mask_2
     # depth_input = lidar_sparse_depths # depth_dc_3 # depth_dc_1 # lidar_sparse_depths
-    depth_input = MVP_depth(gt_bboxes_2d, unproject_mask, radar_sparse_depths, predict_depth=depth_dc_4, N=1, depth_offset=1.0)
+    # depth_input = MVP_depth(gt_bboxes_2d, unproject_mask, radar_sparse_depths, predict_depth=depth_dc_4, N=1, depth_offset=1.0)
     # downsample unprojection
     downsample = 8
     matrix = np.eye(4)
